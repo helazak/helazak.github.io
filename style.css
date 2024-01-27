@@ -1,0 +1,111 @@
+body {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    background-color: #ececec;
+    max-width: max-content;
+    margin: auto;
+}
+
+header {
+    background-color: #e6ded1;
+    text-align: center;
+    font-size: 1.5em;
+    color: #4d4545;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.5em;
+    padding: 0.7em;
+    box-shadow: 0px 0px 15px grey;
+}
+
+.section {
+    margin: 2em 15em 0em 15em;
+    padding: 1em;
+    box-shadow: 0px 0px 10px grey;
+}
+
+/* sekcja 1 */
+
+form {
+    padding: 2em 4em 2em 4em;
+}
+
+fieldset {
+    border: 2px solid #e7e2da;
+}
+
+legend {
+    color: #8d8881;
+    letter-spacing: 0.2em;
+}
+
+.form-group {
+    padding: 0.5em;
+    float: inline-end;
+    /* justify-content: flex-start; */
+    position: relative;
+    right: 20em; 
+}
+
+label {
+    text-transform: uppercase;
+    color: #4d4545;
+    font-weight: bold;
+    font-size: 0.7em;
+}
+
+input {
+    /* width: 25em;
+    height: 2em; */
+    padding: 0.5em 8em;
+    border: 1px solid #e7e2da;
+    margin: 0em 1em;
+    align-items: center;
+}
+
+fieldset {
+    padding-bottom: 4em;
+    position: relative;
+}
+
+button {
+    background-color: #c4beb6;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 1em 2em;
+    border: none;
+    font-size: 0.7em;
+}
+
+.button {
+    position: absolute;
+    bottom: 1.1em;
+    right: 1.1em;
+}
+
+/* sekcja 2 */
+
+table {
+    padding: 1em;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: #d5d0c6;
+    color: #4d4545;
+    text-transform: uppercase;
+    padding: 1em;
+    text-align: left;
+    font-size: 0.8em;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+table tr:nth-of-type(2n+1) {
+    background-color: rgb(235, 229, 225);
+}
+
+td {
+    padding: 0.7em 1em;
+    vertical-align: top;
+}
