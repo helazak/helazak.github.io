@@ -3,6 +3,7 @@ body {
     background-color: #ececec;
     max-width: max-content;
     margin: auto;
+    text-align: center;
 }
 
 header {
@@ -23,67 +24,9 @@ header {
     box-shadow: 0px 0px 10px grey;
 }
 
-/* sekcja 1 */
-
-form {
-    padding: 2em 4em 2em 4em;
+img {
+    box-shadow: 0px 0px 15px black;
 }
-
-fieldset {
-    border: 2px solid #e7e2da;
-}
-
-legend {
-    color: #8d8881;
-    letter-spacing: 0.2em;
-}
-
-.form-group {
-    padding: 0.5em;
-    float: inline-end;
-    /* justify-content: flex-start; */
-    position: relative;
-    right: 20em; 
-}
-
-label {
-    text-transform: uppercase;
-    color: #4d4545;
-    font-weight: bold;
-    font-size: 0.7em;
-}
-
-input {
-    /* width: 25em;
-    height: 2em; */
-    padding: 0.5em 8em;
-    border: 1px solid #e7e2da;
-    margin: 0em 1em;
-    align-items: center;
-}
-
-fieldset {
-    padding-bottom: 4em;
-    position: relative;
-}
-
-button {
-    background-color: #c4beb6;
-    color: white;
-    text-transform: uppercase;
-    font-weight: bold;
-    padding: 1em 2em;
-    border: none;
-    font-size: 0.7em;
-}
-
-.button {
-    position: absolute;
-    bottom: 1.1em;
-    right: 1.1em;
-}
-
-/* sekcja 2 */
 
 table {
     padding: 1em;
